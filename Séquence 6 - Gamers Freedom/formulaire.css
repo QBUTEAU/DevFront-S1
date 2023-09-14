@@ -1,0 +1,146 @@
+body{
+    text-align: center;
+    overflow-x: hidden;
+    font-family: "Open Sans";
+    background-color: rgb(182, 240, 183);
+    margin: 0 auto;
+}
+
+h1{
+    position: absolute;
+    font-size: 20px;
+    color: white;
+    margin-right: 30px;
+    top: -6px;
+    text-align: left;
+    margin-left: 10px;
+}
+nav{
+    background-color: black;
+    padding: 10px;
+}
+#liens_header{
+    display: inline-flex;
+    text-decoration: dashed;
+}
+#liens_header > li > a, .affichage{
+    color: white;
+    text-decoration: dashed;
+    border: white 1px solid;
+    padding: 5px;
+    border-radius: 5px;
+}
+#liens_header > li > a:hover{
+    text-decoration: underline;
+    color: rgb(255, 191, 0);
+}
+#gamers_room{
+    list-style: none;
+    text-align: left;
+}
+
+#gamers_room:hover > .hider{
+    display: block;
+    text-align: center;
+}
+#padding1{
+    padding-top: 10px;
+}
+.hider{
+    display: none;
+    transition: 1s;
+}
+#gamers_room > li > a{
+    text-decoration: dashed;
+    color: white;
+}
+#gamers_room > li > a:hover{
+    text-decoration: underline;
+    color: rgb(255, 191, 0);
+}
+
+
+#fond_formulaire{
+    margin: 0 auto;
+    width: 500px;
+    margin-top: 40px;
+    border: 5px black solid;
+}
+#bloc_identite, #bloc_message{
+    padding: 40px;
+}
+input, textarea{
+    border-radius: 5px;
+}
+#message{
+    font-family: "Open Sans";
+    height: 150px;
+    width: 200px;
+}
+#adressemail{
+    width: 260px;
+}
+button{
+    font-family: "Open Sans";
+    margin-bottom: 40px;
+}
+
+
+
+footer{
+    display: flex;
+    justify-content: left;
+    bottom: 0px;
+    height: 150px;
+    background-color: black;
+    background-image: url(Logo.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+#gamers{
+    list-style: none;
+    text-align: left;
+}
+#gamers:hover > .hider{
+    display: block;
+    text-align: center;
+}
+#padding2{
+    padding-top: 10px;
+}
+#gamers > li > a{
+    text-decoration: dashed;
+    color: white;
+}
+#gamers > li > a:hover{
+    text-decoration: underline;
+    color: rgb(255, 191, 0);
+}
+#liens_footer{
+    display: inline-flex;
+    text-decoration: dashed;
+    color: white;
+    list-style: none;
+    padding: 10px;
+}
+#liens_footer > li > a{
+    color: white;
+    text-decoration: dashed;
+    border: white 1px solid;
+    padding: 5px;
+    border-radius: 5px;
+}
+#liens_footer > li > a:hover{
+    text-decoration: underline;
+    color: rgb(255, 191, 0);
+}
+li{
+    margin: 0 35px 0 35px;
+}
+#liens_footer > li{
+    margin: 0 130px 0 130px;
+}
+ul{
+    padding: unset;
+}

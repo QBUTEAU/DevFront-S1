@@ -1,0 +1,80 @@
+body{
+  background-color: rgba(235,165,171,0.6);
+}
+h1{
+  text-align: center;
+  font-family: 'Montserrat';
+}
+h1:hover{
+  transition: 3s;
+  font-size: 300%;
+}
+#container{
+  margin: auto;
+  margin-top: 5%;
+  background-color: rgba(220,236,215,0.6);
+  width: 350px;
+  height: 450px;
+}
+#corps{
+  position: relative;
+  top: 16.5%;
+  left: 25%;
+  width: 50%;
+  height: 67%;
+  background: #B47618;
+  z-index: 2;
+  border-radius: 42%;
+}
+.elements{
+  z-index: 3;
+}
+#eyes{
+  position: absolute;
+  top: 56px;
+  left: 34px;
+}
+#brows{
+  position: absolute;
+  top: 31px;
+  left: 27px;
+}
+#feet{
+  position: absolute;
+  top: 262px;
+  left: -24px;
+}
+#hat{
+  position: absolute;
+  top: -38px;
+}
+#leftear{
+  position: absolute;
+  top: 35px;
+  left: 160px;
+}
+#rightear{
+  position: absolute;
+  top: 35px;
+  left: -37px;
+}
+#lefthand{
+  position: absolute;
+  top: -36px;
+  left: 115px;
+  transition: transform 1s;
+}
+#lefthand:hover{
+  position: absolute;
+  transform: rotate(27deg) translateX(46px);
+}
+#righthand{
+  position: absolute;
+  top: 128px;
+  left: -56px;
+}
+#nose{
+  position: absolute;
+  top: 81px;
+  left: 20px;
+}

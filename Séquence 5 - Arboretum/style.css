@@ -1,0 +1,93 @@
+body{
+    font-family: "Helvetica";
+    margin: 0 auto;
+}
+header{
+    background-image: url(ressources/tree.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    height: 500px;
+    background-color: #3dd0ac;
+    box-shadow: 0 0 20px rgba(0,0,0,.2)
+}
+header > p{
+    color: white;
+    font-size: 45px;
+    font-weight: 700;
+}
+nav{
+    display: flex;
+    width: 800px;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+.liens{
+    color: white;
+    text-decoration: dashed;
+    margin-top: 10px;
+    padding: 5px;
+    transition: 0.3s;
+}
+#active{
+    margin-top: 10px;
+    border-radius: 5px ;
+    background-color: white;
+    color: #3dd0ac;
+    text-decoration: dashed;
+    padding: 5px;
+}
+.liens:hover{
+    color: black;
+
+}
+.titre{
+    display: flex;
+    margin-top: 350px;
+    font-size: 45px;
+    justify-content: center;
+}
+section{
+    margin: 10px;
+    width: 760px;
+    margin: 0 auto;
+    color: rgb(75, 75, 75);
+}
+section h1 {
+    margin: unset;
+    font-size: 45px;
+    display: flex;
+    letter-spacing: 4px;
+    justify-content: center;
+}
+section > p{
+    margin: 10px 0 10px 0;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    height: 40px;
+    color: white;
+    background-color: #3dd0ac;
+    box-shadow: 0 0 20px rgba(0,0,0,.2);
+    margin: 0 auto;
+}
+iframe{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+img{
+    height: 467px;
+    width: 600px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 5px black solid;
+}
+#contact{
+    text-align: center;
+}

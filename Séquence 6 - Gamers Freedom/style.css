@@ -1,0 +1,178 @@
+body{
+    text-align: center;
+    overflow-x: hidden;
+    font-family: "Open Sans";
+    background-color: rgb(182, 240, 183);
+    margin: 0 auto;
+}
+
+h1{
+    position: absolute;
+    font-size: 20px;
+    color: white;
+    margin-right: 30px;
+    top: -6px;
+    text-align: left;
+    margin-left: 10px;
+}
+nav{
+    background-color: black;
+    padding: 10px;
+}
+#liens_header{
+    display: inline-flex;
+    text-decoration: dashed;
+    color: white;
+    list-style: none;
+}
+#liens_header > li > a, .affichage{
+    color: white;
+    text-decoration: dashed;
+    border: white 1px solid;
+    padding: 5px;
+    border-radius: 5px;
+}
+#liens_header > li > a:hover{
+    text-decoration: underline;
+    color: rgb(255, 191, 0);
+}
+#gamers_room{
+    list-style: none;
+    text-align: left;
+}
+
+#gamers_room:hover > .hider{
+    display: block;
+    text-align: center;
+}
+#padding1{
+    padding-top: 10px;
+}
+.hider{
+    display: none;
+    transition: 1s;
+}
+#gamers_room > li > a{
+    text-decoration: dashed;
+    color: white;
+}
+#gamers_room > li > a:hover{
+    text-decoration: underline;
+    color: rgb(255, 191, 0);
+}
+
+
+#ensemble_images1{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#image1-1, #image1-2, #image1-3, #image1-4, #image1-5, #image1-6{
+    position: relative;
+    width: 32.5%;
+}
+#ensemble_images1 > div{
+    margin-left: 2.2px;
+    margin-right: 2.2px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    padding: 4px;
+    background: rgb(255,0,0);
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,148,0,1) 50%, rgba(255,252,0,1) 100%);
+}
+#ensemble_images1 > div:hover > .hider{
+    display: block;
+}
+#ensemble_images1 > div > p{
+    position: absolute;
+    top: 25%;
+    text-align: center;
+    color: white;
+    font-size: 2vh;
+    font-size: 1vw;
+    font-weight: 600;
+}
+#ensemble_images1 > div > button{
+    position: absolute;
+    top: 73%;
+    left: 38.8%;
+    width: 7vw;
+    height: 4vh;
+    font-family: "Open Sans";
+}
+#ensemble_images2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#image2-1, #image2-2, #image2-3, #image2-4, #image2-5{
+    position: relative;
+    width: 32%;
+    margin: 9px;
+}
+#ensemble_images2 > div > img{
+    border: 4px rgb(0, 0, 139) solid;
+}
+.images2{
+    width: 33%;
+    margin: 2px;
+}
+
+footer{
+    display: flex;
+    justify-content: left;
+    bottom: 0px;
+    height: 150px;
+    background-color: black;
+    background-image: url(Logo.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+#gamers{
+    list-style: none;
+    text-align: left;
+}
+#gamers:hover > .hider{
+    display: block;
+    text-align: center;
+}
+#padding2{
+    padding-top: 10px;
+}
+#gamers > li > a{
+    text-decoration: dashed;
+    color: white;
+}
+#gamers > li > a:hover{
+    text-decoration: underline;
+    color: rgb(255, 191, 0);
+}
+#liens_footer{
+    display: inline-flex;
+    text-decoration: dashed;
+    color: white;
+    list-style: none;
+    padding: 10px;
+}
+#liens_footer > li > a{
+    color: white;
+    text-decoration: dashed;
+    border: white 1px solid;
+    padding: 5px;
+    border-radius: 5px;
+}
+#liens_footer > li > a:hover{
+    text-decoration: underline;
+    color: rgb(255, 191, 0);
+}
+li{
+    margin: 0 35px 0 35px;
+}
+#liens_footer > li{
+    margin: 0 130px 0 130px;
+}
+ul{
+    padding: unset;
+}
